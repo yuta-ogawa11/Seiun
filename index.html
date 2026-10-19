@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>星雲 — 本や映画について、考えたことを残す</title>
+<meta name="description" content="星雲は、読んだ本や観た作品、心に残った言葉について、考えたことを残す iPhone のアプリです。">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<style>
+  :root {
+    --bg: #07080d;
+    --text: #f2f2f5;
+    --sub: rgba(242, 242, 245, 0.68);
+    --faint: rgba(242, 242, 245, 0.42);
+    --line: rgba(255, 255, 255, 0.12);
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background:
+      radial-gradient(70% 45% at 18% 8%, rgba(96, 74, 140, 0.32), transparent 70%),
+      radial-gradient(60% 50% at 88% 30%, rgba(40, 120, 104, 0.26), transparent 70%),
+      var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+    min-height: 100vh;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 20px 64px;
+  }
+  .icon {
+    width: 96px;
+    height: 96px;
+    border-radius: 22px;
+    display: block;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  }
+  h1 {
+    margin: 28px 0 4px;
+    font-size: 34px;
+    letter-spacing: 0.18em;
+    font-weight: 700;
+  }
+  .reading { color: var(--faint); font-size: 13px; letter-spacing: 0.1em; margin: 0; }
+  .lead {
+    margin: 28px 0 0;
+    font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+    font-size: 19px;
+    line-height: 1.9;
+  }
+  ul { margin: 28px 0 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
+  li { padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--sub); font-size: 15px; }
+  li strong { color: var(--text); font-weight: 600; }
+  .note { margin: 28px 0 0; color: var(--sub); font-size: 14px; }
+  h2 { margin: 56px 0 8px; font-size: 13px; letter-spacing: 0.2em; color: var(--faint); font-weight: 600; }
+  .en { color: var(--sub); font-size: 14px; line-height: 1.7; margin: 0; }
+  footer { margin-top: 56px; color: var(--faint); font-size: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="星雲のアイコン" width="96" height="96">
+  <h1>星雲</h1>
+  <p class="reading">せいうん　Seiun</p>
+
+  <p class="lead">読んだ本、観た映画やアニメ、心に残った言葉について、考えたことを残す iPhone のアプリです。</p>
+
+  <ul>
+    <li><strong>作品・人・言葉ごとに</strong>、自分の考えや、残したい言葉を書きとめられます。</li>
+    <li><strong>書いたものは、その iPhone の中だけ</strong>に置きます。アカウントも、書いたものを預かるサーバーもありません。</li>
+    <li>作品の表紙や情報は、公開されている目録（Apple、AniList、Wikipedia、TMDB、楽天ブックスなど）から探します。</li>
+  </ul>
+
+  <p class="note">いまは TestFlight で試していただいています（App Store にはまだ出していません）。</p>
+
+  <h2>ENGLISH</h2>
+  <p class="en">Seiun is an iPhone app for keeping your thoughts about the books, films and anime you have enjoyed, and the words that stayed with you. Everything you write stays on your iPhone — there is no account and no server that stores your notes. Book and film details are looked up from public catalogs such as Apple, AniList, Wikipedia, TMDB and Rakuten Books. The app is currently in testing via TestFlight.</p>
+
+  <footer>© 2026 星雲</footer>
+</main>
+</body>
+</html>
